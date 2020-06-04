@@ -1,0 +1,41 @@
+;; Welcome to the Crossbeam challenge project!
+;;
+;; This project uses a language called Sibilant. Sibilant is very simple and
+;; can be learned quickly. A comprehensive walkthrough of the language is
+;; here: https://sibilant.org/
+;;
+;; To install Sibilant, run:
+;;
+;;    npm install -g sibilant
+;;
+;; To run this code, use:
+;;
+;;    sibilant -x -f crossbeam.sibilant
+;;
+;; The challenge: You are given a list of tasks, some of which depend on
+;; others. Write a function which will takes a subset of those tasks and
+;; returns an ordered list of all the tasks to run.
+
+(def determine-order (tasks, chosen-tasks)
+  null)
+
+
+;; Examples:
+
+(var example-tasks
+     [{task "make a sandwich", depends ["buy groceries"]}
+      {task "buy groceries", depends ["go to the store"]}
+      {task "go to the store", depends []}])
+
+;; The following should print:
+;; [ 'go to the store', 'buy groceries', 'make a sandwich' ]
+(console.log (determine-order example-tasks ["make a sandwich"]))
+
+;; The following should also print:
+;; [ 'go to the store', 'buy groceries', 'make a sandwich' ]
+(console.log (determine-order example-tasks ["buy groceries" "make a sandwich"]))
+
+;; Write any additional test cases which demonstrate the correctness of your
+;; solution.
+
+;; Please also write a description of how your algorithm works.

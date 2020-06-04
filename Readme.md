@@ -1,0 +1,5 @@
+# Notes
+
+* I spent an hour total on the assignment - I highly value my time and choose to limit investment in the interview phase as I'm without any guarantee that my time will be respected, valued, or re-compensated
+* I began attempting a solution in [Sibilant](https://sibilant.org/) and switched to Javascript after about 30 minutes; learning a new superset of Javascript is way out of scope for an interview, in my opinion - especially without tooling for development in a new ecosystem. I also did not find the [Docs](https://docs.sibilant.org/) to be helpful in regards to syntax or language features. I have included my very minimal Sibilant attempt to maintain the integrity of my procedure within the allotted hour.
+* Dependency management is an entire domain, in-and-of itself. I chose to reach a functional solution and would continue refactoring at a later point in time. There are plenty of edge-cases to consider when iterating on such a program, let alone dealing with type safety in Sibilant/Javascript.

@@ -1,0 +1,17 @@
+;; Logical approach:
+
+;; 1. Initialize empty array to contain ordered tasks
+;; 2. Loop through chosen tasks
+;;   a. Find task object via 'depends' identifiers (array of strings)
+;;   b. If task has dependencies, recursively...
+;;     * Loop through each dependency in the 'depends' array
+;;       * Add dependency to ordered array (if no subsequent dependencies), or
+;;       * Continue the recursive loop
+
+
+(def determine-order (tasks, chosen-tasks)
+  (assign ordered-tasks [])
+  (each (task, index) tasks
+                      (get task `)
+                          )
+  ordered_tasks)
